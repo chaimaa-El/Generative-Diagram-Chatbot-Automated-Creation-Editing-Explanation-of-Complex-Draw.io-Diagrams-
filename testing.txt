@@ -1,0 +1,119 @@
+
+
+
+Generate a draw io diagram xml format not an image of a convolutional neural network used for image classification. Include the following layers in order: input image, conv2D + ReLU, max pooling, conv2D + ReLU, fully connected layer, softmax output. Use clear labels and show directional connections.
+
+
+Develop an enterprise-level cybersecurity framework diagram highlighting network security, endpoint protection, identity management, SIEM integration, and intrusion detection/prevention systems.
+
+Create a decision flowchart with a diamond labeled 'Decision' leading to two rectangles labeled 'Yes' and 'No'.
+
+
+Create an activity flowchart for a password reset system with the following steps: start with 'Request Password Reset', proceed to 'Enter Email Address', then a decision node labeled 'Email Registered?'. If yes, continue to 'Send Reset Link', then 'User Resets Password', and end with 'Confirmation Message'. If no, follow the failure branch to 'Display Error Message', then go to the endpoint.
+
+
+
+
+
+Edit the following neural network diagram: - Add a new hidden node h2 at position (150, 80) with blue color #BBDEFB. - Add a connection from i1 to h2. - Change the fill color of output node o1 to light green (#C8E6C9). Input XML: <mxfile><diagram name="Simple NN"><mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><mxCell id='i1' value='i1' style='ellipse;fillColor=#FFF9C4' vertex='1' parent='1'><mxGeometry x='40' y='80' width='50' height='30' as='geometry'/></mxCell><mxCell id='h1' value='h1' style='ellipse;fillColor=#BBDEFB' vertex='1' parent='1'><mxGeometry x='100' y='40' width='50' height='30' as='geometry'/></mxCell><mxCell id='o1' value='o1' style='ellipse;fillColor=#FFD54F' vertex='1' parent='1'><mxGeometry x='200' y='60' width='50' height='30' as='geometry'/></mxCell><mxCell id='e1' edge='1' source='i1' target='h1' parent='1'><mxGeometry relative='1' as='geometry'/></mxCell><mxCell id='e2' edge='1' source='h1' target='o1' parent='1'><mxGeometry relative='1' as='geometry'/></mxCell></root></mxGraphModel></diagram></mxfile>
+
+
+Edit the following class diagram: Add a new attribute - email: String to the Customer class. Increase the height of the class container to fit the new attribute. Input XML:
+
+<mxfile>   <diagram name="Page-5">     <mxGraphModel>       <root>         <mxCell id="0"/>         <mxCell id="1" parent="0"/>         <mxCell id="101" value="Customer" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;whiteSpace=wrap;html=1;" vertex="1" parent="1">           <mxGeometry x="100" y="100" width="180" height="100" as="geometry"/>         </mxCell>         <mxCell id="102" value="- customerId: Int" style="text;align=left;verticalAlign=top;spacingLeft=4;html=1;" vertex="1" parent="101">           <mxGeometry y="26" width="180" height="30" as="geometry"/>         </mxCell>         <mxCell id="103" value="- name: String" style="text;align=left;verticalAlign=top;spacingLeft=4;html=1;" vertex="1" parent="101">           <mxGeometry y="56" width="180" height="30" as="geometry"/>         </mxCell>       </root>     </mxGraphModel>   </diagram> </mxfile>
+
+Edit the following flowchart diagram: Add a decision diamond labeled "Approve?" at position (150, 180). Connect the process box process to the new decision diamond. Input XML:
+
+<mxfile>   <diagram name="Auto">     <mxGraphModel>       <root>         <mxCell id="0"/>         <mxCell id="1" parent="0"/>         <mxCell id="start" value="Start" style="ellipse" vertex="1" parent="1">           <mxGeometry x="100" y="20" width="80" height="40" as="geometry"/>         </mxCell>         <mxCell id="process" value="Process" style="rectangle" vertex="1" parent="1">           <mxGeometry x="120" y="100" width="120" height="60" as="geometry"/>         </mxCell>       </root>     </mxGraphModel>   </diagram> </mxfile>
+
+
+Explain the following UML activity diagram for an online order fulfillment process.
+Input XML:<mxfile>
+  <diagram name="Order Fulfillment">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="start" value="Start" style="shape=ellipse;fillColor=black;strokeColor=black" vertex="1" parent="1">
+          <mxGeometry x="200" y="30" width="30" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="select" value="Select Product" style="shape=rounded" vertex="1" parent="1">
+          <mxGeometry x="170" y="90" width="100" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="pay" value="Make Payment" style="shape=rounded" vertex="1" parent="1">
+          <mxGeometry x="170" y="160" width="100" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="confirm" value="Confirm Order" style="shape=rounded" vertex="1" parent="1">
+          <mxGeometry x="170" y="230" width="100" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="ship" value="Ship Product" style="shape=rounded" vertex="1" parent="1">
+          <mxGeometry x="170" y="300" width="100" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="end" value="End" style="shape=ellipse;fillColor=black;strokeColor=black" vertex="1" parent="1">
+          <mxGeometry x="200" y="370" width="30" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="e1" edge="1" source="start" target="select" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e2" edge="1" source="select" target="pay" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e3" edge="1" source="pay" target="confirm" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e4" edge="1" source="confirm" target="ship" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e5" edge="1" source="ship" target="end" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
+
+
+Describe this neural network diagram that models a binary classification task.
+Input XML: <mxfile>
+  <diagram name="Binary Classifier">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="x1" value="Input X1" style="ellipse" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="70" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="x2" value="Input X2" style="ellipse" vertex="1" parent="1">
+          <mxGeometry x="40" y="100" width="70" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="h1" value="Hidden 1" style="ellipse" vertex="1" parent="1">
+          <mxGeometry x="150" y="40" width="70" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="h2" value="Hidden 2" style="ellipse" vertex="1" parent="1">
+          <mxGeometry x="150" y="100" width="70" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="out" value="Output Y" style="ellipse" vertex="1" parent="1">
+          <mxGeometry x="260" y="70" width="80" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="e1" edge="1" source="x1" target="h1" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e2" edge="1" source="x2" target="h2" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e3" edge="1" source="h1" target="out" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e4" edge="1" source="h2" target="out" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
+
+
+
+
+
+Explain the following diagram: <mxfile><diagram name="Customer Feedback Loop"><mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><mxCell id='2' value='Customer' style='ellipse;fillColor=#C8E6C9;strokeColor=#388E3C' vertex='1' parent='1'><mxGeometry x='100' y='80' width='100' height='50' as='geometry'/></mxCell><mxCell id='3' value='Feedback Portal' style='rectangle;fillColor=#FFECB3;strokeColor=#FF9800' vertex='1' parent='1'><mxGeometry x='250' y='80' width='140' height='50' as='geometry'/></mxCell><mxCell id='4' value='Analytics Engine' style='rectangle;fillColor=#BBDEFB;strokeColor=#2196F3' vertex='1' parent='1'><mxGeometry x='450' y='80' width='160' height='50' as='geometry'/></mxCell><mxCell id='5' value='Product Team' style='ellipse;fillColor=#FFCDD2;strokeColor=#F44336' vertex='1' parent='1'><mxGeometry x='650' y='80' width='120' height='50' as='geometry'/></mxCell><mxCell id='6' edge='1' source='2' target='3' parent='1'><mxGeometry relative='1' as='geometry'/></mxCell><mxCell id='7' edge='1' source='3' target='4' parent='1'><mxGeometry relative='1' as='geometry'/></mxCell><mxCell id='8' edge='1' source='4' target='5' parent='1'><mxGeometry relative='1' as='geometry'/></mxCell></root></mxGraphModel></diagram></mxfile>

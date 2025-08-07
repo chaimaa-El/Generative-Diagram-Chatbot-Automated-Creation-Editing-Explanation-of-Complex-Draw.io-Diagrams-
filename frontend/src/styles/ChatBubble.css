@@ -1,0 +1,107 @@
+.bubble-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 24px 0;
+}
+
+.bubble-wrapper.assistant {
+  align-items: flex-start;
+}
+
+.bubble-wrapper.user {
+  align-items: flex-end;
+}
+
+.bubble-label-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.bubble-label-row.assistant {
+  margin-left: 150px; /* Align with assistant bubble */
+}
+
+.bubble-label-row.user {
+  margin-right: 150px; /* Align with user bubble */
+}
+
+.bubble-avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 8px;
+  background: #e0e0e0;
+}
+
+.bubble-label {
+  font-size: 15px;
+  font-weight: 600;
+  color: #2563eb;
+  opacity: 0.85;
+}
+
+.chat-bubble {
+  border-radius: 16px;
+  padding: 10px 28px 10px 24px;
+  max-width: 480px;
+  font-size: 16px;
+  font-weight: 500;
+  box-shadow: 0 2px 8px rgba(30,40,60,0.03);
+  margin-bottom: 8px;
+  word-break: break-word;
+  background: var(--bubble-ai, #eaf1fb);
+  color: var(--fg, #222);
+}
+
+.chat-bubble.user {
+  background-color: var(--bubble-user, #e6f1ff);
+  color: var(--fg, #222);
+  align-self: flex-end;
+  margin-right: 150px;
+}
+
+.chat-bubble.ai {
+  background-color: var(--bubble-ai, #eaf1fb);
+  color: var(--fg, #222);
+  align-self: flex-start;
+  margin-left: 150px;
+}
+
+.code-block {
+  background: var(--code-bg, #f0f0f0);
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 8px;
+  font-family: 'JetBrains Mono', 'Fira Mono', 'Consolas', monospace;
+  font-size: 0.95em;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-break: break-all;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.diagram-link-row {
+  margin-top: 14px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.diagram-link {
+  background: #2563eb;
+  color: #fff;
+  padding: 10px 22px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.2s;
+  border: none;
+  display: inline-block;
+}
+.diagram-link:hover {
+  background: #1d4ed8;
+}

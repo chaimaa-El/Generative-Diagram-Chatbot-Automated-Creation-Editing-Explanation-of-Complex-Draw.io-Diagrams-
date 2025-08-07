@@ -1,0 +1,18 @@
+[
+  {
+    "intent": "generate",
+    "instruction": "Create a simple flowchart with Start, Decision, and End nodes.",
+    "xml": "<mxfile><diagram name=\"Page-1\"><mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"Start\" style=\"ellipse;whiteSpace=wrap;html=1;aspect=fixed;\" vertex=\"1\" parent=\"1\"><mxGeometry x=\"180\" y=\"100\" width=\"100\" height=\"50\" as=\"geometry\"/></mxCell><mxCell id=\"3\" value=\"Process\" style=\"rounded=0;whiteSpace=wrap;html=1;\" vertex=\"1\" parent=\"1\"><mxGeometry x=\"180\" y=\"200\" width=\"100\" height=\"60\" as=\"geometry\"/></mxCell><mxCell id=\"4\" value=\"End\" style=\"ellipse;whiteSpace=wrap;html=1;aspect=fixed;\" vertex=\"1\" parent=\"1\"><mxGeometry x=\"180\" y=\"320\" width=\"100\" height=\"50\" as=\"geometry\"/></mxCell><mxCell id=\"5\" style=\"endArrow=block;html=1;\" edge=\"1\" parent=\"1\" source=\"2\" target=\"3\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"6\" style=\"endArrow=block;html=1;\" edge=\"1\" parent=\"1\" source=\"3\" target=\"4\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell></root></mxGraphModel></diagram></mxfile>"
+  },
+  {
+    "intent": "edit",
+    "instruction": "Add a new ellipse labeled 'End' connected to the rectangle.",
+    "input_xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"start\" value=\"Start\" style=\"ellipse\" vertex=\"1\" parent=\"1\"><mxGeometry x=\"20\" y=\"20\" width=\"80\" height=\"40\" as=\"geometry\"/></mxCell><mxCell id=\"process\" value=\"Process\" style=\"rectangle\" vertex=\"1\" parent=\"1\"><mxGeometry x=\"150\" y=\"20\" width=\"100\" height=\"60\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "output_xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"start\" value=\"Start\" style=\"ellipse\" vertex=\"1\" parent=\"1\"><mxGeometry x=\"20\" y=\"20\" width=\"80\" height=\"40\" as=\"geometry\"/></mxCell><mxCell id=\"process\" value=\"Process\" style=\"rectangle\" vertex=\"1\" parent=\"1\"><mxGeometry x=\"150\" y=\"20\" width=\"100\" height=\"60\" as=\"geometry\"/></mxCell><mxCell id=\"end\" value=\"End\" style=\"ellipse\" vertex=\"1\" parent=\"1\"><mxGeometry x=\"300\" y=\"20\" width=\"80\" height=\"40\" as=\"geometry\"/></mxCell><mxCell id=\"edge1\" style=\"edgeStyle=orthogonalEdgeStyle;endArrow=block;\" edge=\"1\" source=\"process\" target=\"end\" parent=\"1\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell></root></mxGraphModel>"
+  }
+
+
+
+
+ 
+]
